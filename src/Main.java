@@ -11,10 +11,21 @@ public class Main {
         System.out.println(operatia3(20,-3, 5, 8));
         System.out.println(operatia4(5, 15, 3, 2, 8, 3));
 
-
         Calculator calc = new Calculator();
 
+        System.out.println(calc.adunare(10, 8));
+        System.out.println(calc.scadere(10, 8));
+        System.out.println(calc.inmultire(10, 8));
+        System.out.println(calc.impartire(10, 8));
+
+        Print print = new Print();
+
+        print.JavaLogo();
+
         System.out.println(calc.medianumerelor(10, 8, 6));
+
+
+        System.out.println(calc.restulimpartirii(10, 7));
         System.out.println(calc.FahrenheittoCelsius(100));
         System.out.println(calc.inchtocm(200));
 

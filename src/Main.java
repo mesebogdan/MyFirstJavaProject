@@ -21,10 +21,9 @@ public class Main {
         Print print = new Print();
 
         print.JavaLogo();
+        print.omulet();
 
         System.out.println(calc.medianumerelor(10, 8, 6));
-
-
         System.out.println(calc.restulimpartirii(10, 7));
         System.out.println(calc.FahrenheittoCelsius(100));
         System.out.println(calc.inchtocm(200));

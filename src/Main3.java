@@ -20,10 +20,10 @@ public class Main3 {
         String greater= op.greaternumbers(99);
         System.out.println("ex.7." + greater);
 
-        int numberno = 7;
+        int numberno = 8;
         op.switchnumber(numberno);
 
-        int numero = 99;
+        int numero = 100;
         System.out.println("ex.9. Even number? : " + op.isNumberEven(numero));
 
         int varsta = 19;

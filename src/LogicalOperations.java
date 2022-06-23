@@ -68,9 +68,7 @@ public class LogicalOperations {
     }
 
     public boolean isNumberEven(int numero){
-        if (numero % 2 == 0)
-            return true;
-        else return false;
+        return numero % 2 == 0;
     }
 
     public String isEligibleToVote(int varsta){

@@ -6,27 +6,32 @@ public class Main {
 
         printmyname();
 
-        System.out.println(operatia1(-5, 8, 6));
-        System.out.println(operatia2(55, 9, 9));
-        System.out.println(operatia3(20,-3, 5, 8));
-        System.out.println(operatia4(5, 15, 3, 2, 8, 3));
-
         Calculator calc = new Calculator();
 
-        System.out.println(calc.adunare(10, 8));
-        System.out.println(calc.scadere(10, 8));
-        System.out.println(calc.inmultire(10, 8));
-        System.out.println(calc.impartire(10, 8));
+        System.out.println("operatia 1: " + calc.operatia1(-5, 8, 6));
+        System.out.println("operatia 2: " + calc.operatia2(55, 9, 9));
+        System.out.println("operatia 3: " + calc.operatia3(20,-3, 5, 8));
+        System.out.println("operatia 4: " + calc.operatia4(5, 15, 3, 2, 8, 3));
+
+
+        System.out.println("operatie adunare: " + calc.adunare(10, 8));
+        System.out.println("operatie scadere: " + calc.scadere(10, 8));
+        System.out.println("operatie inmultire: " + calc.inmultire(10, 8));
+        System.out.println("operatie impartire: " + calc.impartire(10, 8));
+
 
         Print print = new Print();
 
         print.JavaLogo();
         print.omulet();
 
-        System.out.println(calc.medianumerelor(10, 8, 6));
-        System.out.println(calc.restulimpartirii(10, 7));
-        System.out.println(calc.FahrenheittoCelsius(100));
-        System.out.println(calc.inchtocm(200));
+
+        System.out.println("operatie media numerelor: " + calc.medianumerelor(10, 8, 6));
+        System.out.println("operatie restul impartirii: " + calc.restulimpartirii(10, 7));
+        System.out.println("operatie Fahrenheit to Celsius: " + calc.FahrenheittoCelsius(100));
+        System.out.println("operatie inch to cm: " + calc.inchtocm(200));
+
+
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter distance in meters: ");
@@ -47,18 +52,10 @@ public class Main {
         System.out.println("Hello \nMesesan Bogdan");
     }
 
-    public static int operatia1(int x, int y, int z) {
-        return x + y * z;
-    }
-    public static int operatia2(int x, int y, int z) {
-        return (x + y) % z;
-    }
-    public static double operatia3(double x, double y, double z, double p) {
-        return x + ( y * z / p);
-    }
-    public static double operatia4(double x, double y, double z, double p, double m, double n){
-        return x + ( y / z * p ) - ( m % n );
+
+
+
+
 
     }
 
-}

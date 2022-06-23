@@ -15,7 +15,18 @@ public class Calculator {
     public double restulimpartirii(double x, double y){
         return x % y;
     }
-
+    public int operatia1(int x, int y, int z) {
+        return x + y * z;
+    }
+    public int operatia2(int x, int y, int z) {
+        return (x + y) % z;
+    }
+    public double operatia3(double x, double y, double z, double p) {
+        return x + ( y * z / p);
+    }
+    public double operatia4(double x, double y, double z, double p, double m, double n) {
+        return x + (y / z * p) - (m % n);
+    }
 
     public int medianumerelor(int x, int y, int z){
         return ( x + y + z ) / 3;

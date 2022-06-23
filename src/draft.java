@@ -13,4 +13,9 @@ public class draft {
     //    System.out.println(operatia2);
     //    System.out.println(operatia3);
      //   System.out.println(operatia4);
+
+
+
+    //     int x = 1;
+    //     System.out.println("The given number is: " + op.printanumber(x));
 }

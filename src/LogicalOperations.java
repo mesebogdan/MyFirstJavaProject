@@ -3,8 +3,7 @@ public class LogicalOperations {
     public int checkBiggerNumber(int first, int second) {
         if (first > second) {
             return first;
-        }
-        return second;
+        } else return second;
     }
 
     public String textandnumbertoshow(String textinput, int number) {
@@ -77,5 +76,73 @@ public class LogicalOperations {
         else return "false";
     }
 
+    public void numbertohundred (int x){
+        for (int i=x; i <= 100; i++){
+            System.out.println(i);
+        }
+    }
+
+    public void numbertominushundred(int x){
+        for (int i=x; i >= -100; i--) {
+            System.out.println(i);
+        }
+    }
+
+   public void numbertonumber(int x, int y){
+        for (int i = x; i <= y; i++){
+           System.out.println(i);
+       }
+   }
+
+    public void numbertonumber2(int x, int y){
+      if (x<y)
+        for (int i = x; i <= y; i++){
+            System.out.println(i);
+        }
+     else if (x>y)
+        for (int i = y; i < x; i++){
+            System.out.println(i);
+        }
+        else {
+          System.out.println("nimic");
+      }
+    }
+
+    public void evennumber(int x){
+        for (int i = x; i <=100; i++){
+            if (i % 2==0){
+                System.out.println(i);
+
+            }
+            }
+    }
+    public void oddnumber(int x){
+        for (int i=x; i<=100; i++){
+            if (i %2 !=0){
+                System.out.println(i);
+            }
+        }
+    }
+
+    public double sumtohundred(int p){
+        int sum = 0;
+        for (int i = p; i <= 100; i++){
+            sum = sum + i;
+        }
+        return sum;
+
+    }
+    public double sumsiavarage(int b){
+        int sum = 0;
+        double count = 0;
+        for (int i = b; i <= 100; i++){
+            sum +=i;
+            count = count ++;
+        }
+        return sum/count;
 }
+}
+
+
+
 

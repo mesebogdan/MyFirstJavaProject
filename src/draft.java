@@ -19,3 +19,11 @@ public class draft {
     //     int x = 1;
     //     System.out.println("The given number is: " + op.printanumber(x));
 }
+//  public double numbertonumber2(int x, int y){
+//     if (x<y)
+//   for (int i = x; i > y; i++ );
+// else if (x>y)
+//   for (int i = y; i >x; i++);
+
+//return x;
+//  }

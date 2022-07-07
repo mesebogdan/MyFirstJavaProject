@@ -2,15 +2,72 @@ package AnimalRescuer;
 
 public class Dog {
 
-    int age = 10;
-    String race = "buldog";
-    String name = "Ralph";
-    String colour = "Grey";
-    double weight = 20;
-    int heightCm = 20;
-    int healthLevel = 9;
-    int starvingLevel = 6;
-    int happyFeet = 10;
+    private int age;
+    private String race;
+    private String name;
+    private String colour;
+    private double weight;
+    private int heightCm;
+    private int healthLevel;
+    private int starvingLevel;
+    private int happyFeet;
+
+    public int getAge(){
+        return age;
+    }
+    public void setAge(int age){
+        this.age=age;
+    }
+    public String getRace(){
+        return race;
+    }
+    public void setRace(String race){
+        this.race=race;
+    }
+
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+
+    public String getColour(){
+        return colour;
+    }
+    public void setColour(String colour){
+        this.colour=colour;
+    }
+    public double getWeight(){
+        return weight;
+    }
+    public void setWeight(double weight){
+        this.weight=weight;
+    }
+    public int getHeightCm(){
+        return heightCm;
+    }
+    public void setHeightCm(int heightCm){
+        this.heightCm=heightCm;
+    }
+    public int getHealthLevel(){
+        return healthLevel;
+    }
+    public void setHealthLevel(int healthLevel){
+        this.healthLevel=healthLevel;
+    }
+    public int getStarvingLevel(){
+        return starvingLevel;
+    }
+    public void setStarvingLevel(int starvingLevel){
+        this.starvingLevel=starvingLevel;
+    }
+    public int getHappyFeet(){
+        return happyFeet;
+    }
+    public void setHappyFeet(int happyFeet){
+        this.happyFeet=happyFeet;
+    }
 
     public void favouritefood(){
         System.out.println("He likes pizza");

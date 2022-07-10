@@ -305,6 +305,54 @@ public class LogicalOperations {
             x++;
         }
     }
+    public int[] myarrayy (int number){
+        int[] array = new int[number];
+        for (int i=0; i< array.length; i++){
+            array[i]=i+1;
+
+        }
+        return array;
+    }
+    public void printarray(int[] arrayyy){
+        for (int i=0; i<arrayyy.length;i++){
+            System.out.print(arrayyy[i] + " ");
+        }
+    }
+    public int[] evennumber22 (int number){
+        int[] array = new int[ number];
+        for (int i =0; i<array.length; i++){
+            array[i]=i+1;
+        }
+        return array;
+    }
+    public void printevennumberarray(int [] arraynumber) {
+        for (int i = 0; i < arraynumber.length; i++) {
+            if (arraynumber[i] % 2 == 0) {
+                System.out.println(arraynumber[i]);
+            }
+        }
+
+        }
+    }
+    public double averagefromarraynumbers(int[] array){
+        double sum = 0;
+        for (int i=0; i<array.length; i++){
+            sum += array[i];
+        } return sum/array.length;
+    }
+    public boolean istrueorfalsearray(String[] array, String secondwors){
+        for (int i=0; i<array.length; i++){
+            if (array[i].equals(secondwors)) {
+                return true;
+            }
+
+        } return false;
+    }
+    public int numbersss(int[] array, int number){
+        for (int i=0; i<array.length; i++){
+        } if (array.equals(number))
+            return array[i];
+    }
 }
 
 

@@ -1,7 +1,6 @@
-package AnimalRescuer;
+package AnimalRescuer.people;
 
-public class Adoption {
-
+public class People {
     private String name;
 
     public String getName(){
@@ -10,10 +9,4 @@ public class Adoption {
     public void setName(String name){
         this.name=name;
     }
-
-
-    public void moneytoinvest(){
-        System.out.println("100 dollars for one dog");
-    }
-
 }

@@ -1,7 +1,6 @@
-package AnimalRescuer;
+package AnimalRescuer.animal;
 
-public class Dog {
-
+public class Animal {
     private int age;
     private String race;
     private String name;
@@ -86,8 +85,5 @@ public class Dog {
     }
     public void play(){
         System.out.println("Playing fetch");
-    }
-    public void waveTail(){
-        System.out.println("Waving the tail");
     }
 }

@@ -1,4 +1,4 @@
-package AnimalRescuer;
+package AnimalRescuer.Animalfood;
 
 public class AnimalFood {
 

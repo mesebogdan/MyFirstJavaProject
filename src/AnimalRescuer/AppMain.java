@@ -1,5 +1,11 @@
 package AnimalRescuer;
 
+import AnimalRescuer.Activities.OutdoorActivity;
+import AnimalRescuer.Animalfood.AnimalFood;
+import AnimalRescuer.animal.dog.Dog;
+import AnimalRescuer.people.Adoption;
+import AnimalRescuer.people.Veterinarian;
+
 public class AppMain {
 
     public static void main(String[] args) {

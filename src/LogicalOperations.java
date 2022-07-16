@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class LogicalOperations {
 
     public int checkBiggerNumber(int first, int second) {
@@ -333,7 +336,7 @@ public class LogicalOperations {
         }
 
         }
-    }
+
     public double averagefromarraynumbers(int[] array){
         double sum = 0;
         for (int i=0; i<array.length; i++){
@@ -348,11 +351,55 @@ public class LogicalOperations {
 
         } return false;
     }
-    public int numbersss(int[] array, int number){
-        for (int i=0; i<array.length; i++){
-        } if (array.equals(number))
-            return array[i];
+    public void numbertonewrowex1(List<Integer> mylist){
+        for (Integer value: mylist){
+            System.out.println(value);
+        }
     }
+    public void addlastex2(List<Integer> blabla, int x){
+        blabla.add(x);
+        System.out.println(blabla);
+    }
+    public void printrealandnormalnumberex3(List<Integer> otherlist, int x) {
+        for (Integer value: otherlist) {
+            if (value.equals(x))
+                System.out.println(value);
+        }
+    }
+
+    public void printnumberbackwardex4(List<Integer> mylist){
+        for (int i=mylist.size()-1; i>=0; i--){
+            System.out.println(mylist.get(i));
+        }
+    }
+    public void stringnumberstringex5(List<Integer> list, int x, String b){
+        list.add(x, Integer.valueOf(String.valueOf(b)));
+        System.out.println(list);
+
+    }
+    public void addfirstex6(List<Integer> mylist, int g){
+        mylist.add(0,g);
+        System.out.println(mylist);
+    }
+    public void pozitiasinumarulafisateex7(List<Integer> myownlist){
+        for (Integer value : myownlist){
+            System.out.println("Pe pozitia " + (value-1) + " valoarea este " + value);
+        }
+    }
+    public int gethighestnrex8(List<Integer> list) {
+
+        int max = list.get(0);
+        for (int value : list) {
+            if (value > max) {
+                max = value;
+            }
+        }
+        return max;
+
+    }
+
+
+
 }
 
 

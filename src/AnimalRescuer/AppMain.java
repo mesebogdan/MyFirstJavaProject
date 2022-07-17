@@ -2,7 +2,13 @@ package AnimalRescuer;
 
 import AnimalRescuer.Activities.OutdoorActivity;
 import AnimalRescuer.Animalfood.AnimalFood;
+import AnimalRescuer.animal.Animal;
+import AnimalRescuer.animal.cat.Cat;
+import AnimalRescuer.animal.cat.Siamese;
+import AnimalRescuer.animal.dog.Chiwawa;
 import AnimalRescuer.animal.dog.Dog;
+import AnimalRescuer.animal.duck.Duck;
+import AnimalRescuer.animal.duck.GoldenDuck;
 import AnimalRescuer.people.Adoption;
 import AnimalRescuer.people.Veterinarian;
 
@@ -56,5 +62,15 @@ public class AppMain {
         theVet.setName("Coco Carasco");
         System.out.println(theVet.getName());
         theVet.specialization();
+
+        Siamese fluffy= new Siamese();
+        fluffy.favouritefood();
+
+        Dog pitty= new Chiwawa();
+        pitty.play();
+
+        Duck ducky=new Duck();
+        ducky.eat();
+
     }
 }

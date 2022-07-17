@@ -350,12 +350,12 @@ public class LogicalOperations {
 
         } return false;
     }
-    public void numbertonewrowex1(List<Integer> mylist){
+    public void numberToNewRowEx1(List<Integer> mylist){
         for (Integer value: mylist){
             System.out.println(value);
         }
     }
-    public void addlastex2(List<Integer> blabla, int x){
+    public void addLastEx2(List<Integer> blabla, int x){
         blabla.add(x);
         System.out.println(blabla);
     }
@@ -365,29 +365,30 @@ public class LogicalOperations {
         }
 
     }
-    public void printnumberbackwardex4(List<Integer> mylist){
+    public void printNumberBackwardEx4(List<Integer> mylist){
         for (int i=mylist.size()-1; i>=0; i--){
             System.out.println(mylist.get(i));
         }
     }
-    public void stringnumberstringex5(List<String> list, int x, String boo){
+    public void stringNumberStringeEx5(List<String> list, int x, String boo){
         list.add(x, boo);
         System.out.println(list);
 
     }
-    public void addfirstex6(List<Integer> mylist, int g){
+    public void addFirstEx6(List<Integer> mylist, int g){
         mylist.add(0,g);
         System.out.println(mylist);
     }
-    public void pozitiasinumarulafisateex7(List<Integer> myownlist){
+    public void pozitiaSiNumaruEx7(List<Integer> myownlist){
         for (Integer value : myownlist){
             System.out.println("Pe pozitia " + myownlist.indexOf(value)+ " valoarea este " + value);
         }
+        // inca o modalitate:
         for (int i=0; i<myownlist.size(); i++){
             System.out.println("Pe pozitia " + i + " valoarea este " + myownlist.get(i));
         }
     }
-    public int gethighestnrex8(List<Integer> list) {
+    public int getHighestNrEx8(List<Integer> list) {
 
         int max = list.get(0);
         for (int value : list) {

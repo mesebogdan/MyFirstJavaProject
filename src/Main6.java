@@ -11,29 +11,41 @@ public class Main6 {
         for (int i = 1; i <= 10; i++) {
             mylist.add(i);
         }
-        op.numbertonewrowex1(mylist);
+        op.numberToNewRowEx1(mylist);
 
         List<Integer> otherlissst = new ArrayList<>();
         for (int i = 1; i <= 5; i++) {
             otherlissst.add(i);
         }
-        op.addlastex2(otherlissst, 57);
+        op.addLastEx2(otherlissst, 57);
+
+        List<Integer> kkk = new ArrayList<>();
+        for (int i = 1; i <= 7; i++) {
+            kkk.add(i);
+        }
+        op.printRealAndNormalNumberEx3(kkk, 3);
 
         List<Integer> mylist2 = new ArrayList<>();
         for (int i = 1; i <= 10; i++) {
             mylist2.add(i);
         }
-        op.printnumberbackwardex4(mylist2);
+        op.printNumberBackwardEx4(mylist2);
 
-        op.addfirstex6(otherlissst, 22);
+        List<String> myStringList = new ArrayList<>();
+        myStringList.add("Pozitia 1");
+        myStringList.add("Pozitia 2");
+        myStringList.add("Pozitia 3");
+        myStringList.add("Pozitia 4");
+
+        op.stringNumberStringeEx5(myStringList, 2, "alta pozitia");
+
+        op.addFirstEx6(otherlissst, 22);
 
         List<Integer> nnn = new ArrayList<>();
         for (int i =45; i <= 50; i++) {
             nnn.add(i);
         }
-        op.pozitiasinumarulafisateex7(nnn);
-
-
+        op.pozitiaSiNumaruEx7(nnn);
 
         List<Integer> unorderedList = new ArrayList<>();
         unorderedList.add(5);
@@ -41,21 +53,8 @@ public class Main6 {
         unorderedList.add(112);
         unorderedList.add(67);
 
-        System.out.println(op.gethighestnrex8(unorderedList));
+        System.out.println(op.getHighestNrEx8(unorderedList));
 
-        List<Integer> kkk = new ArrayList<>();
-        for (int i = 1; i <= 7; i++) {
-            kkk.add(i);
-        }
-            op.printRealAndNormalNumberEx3(kkk, 3);
-
-        List<String> myStringList = new ArrayList<>();
-        myStringList.add("blabla");
-        myStringList.add("nblbl");
-        myStringList.add("gogogo");
-        myStringList.add("kksks");
-
-        op.stringnumberstringex5(myStringList, 2, "jkjkj");
 
 
 

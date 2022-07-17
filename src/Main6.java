@@ -28,14 +28,10 @@ public class Main6 {
         op.addfirstex6(otherlissst, 22);
 
         List<Integer> nnn = new ArrayList<>();
-        for (int i = 1; i <= 5; i++) {
+        for (int i =45; i <= 50; i++) {
             nnn.add(i);
         }
         op.pozitiasinumarulafisateex7(nnn);
-
-
-
-
 
 
 
@@ -51,9 +47,15 @@ public class Main6 {
         for (int i = 1; i <= 7; i++) {
             kkk.add(i);
         }
-            op.printrealandnormalnumberex3(kkk, 3);
+            op.printRealAndNormalNumberEx3(kkk, 3);
 
-        op.stringnumberstringex5(otherlissst, 2, "jkjkj");
+        List<String> myStringList = new ArrayList<>();
+        myStringList.add("blabla");
+        myStringList.add("nblbl");
+        myStringList.add("gogogo");
+        myStringList.add("kksks");
+
+        op.stringnumberstringex5(myStringList, 2, "jkjkj");
 
 
 

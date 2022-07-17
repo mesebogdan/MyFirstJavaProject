@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class LogicalOperations {
@@ -360,20 +359,19 @@ public class LogicalOperations {
         blabla.add(x);
         System.out.println(blabla);
     }
-    public void printrealandnormalnumberex3(List<Integer> otherlist, int x) {
-        for (Integer value: otherlist) {
-            if (value.equals(x))
-                System.out.println(value);
+    public void printRealAndNormalNumberEx3(List<Integer> otherlist, int x) {
+        for(int i=x-1; i<otherlist.size(); i++){
+            System.out.println(otherlist.get(i));
         }
-    }
 
+    }
     public void printnumberbackwardex4(List<Integer> mylist){
         for (int i=mylist.size()-1; i>=0; i--){
             System.out.println(mylist.get(i));
         }
     }
-    public void stringnumberstringex5(List<Integer> list, int x, String b){
-        list.add(x, Integer.valueOf(String.valueOf(b)));
+    public void stringnumberstringex5(List<String> list, int x, String boo){
+        list.add(x, boo);
         System.out.println(list);
 
     }
@@ -383,7 +381,10 @@ public class LogicalOperations {
     }
     public void pozitiasinumarulafisateex7(List<Integer> myownlist){
         for (Integer value : myownlist){
-            System.out.println("Pe pozitia " + (value-1) + " valoarea este " + value);
+            System.out.println("Pe pozitia " + myownlist.indexOf(value)+ " valoarea este " + value);
+        }
+        for (int i=0; i<myownlist.size(); i++){
+            System.out.println("Pe pozitia " + i + " valoarea este " + myownlist.get(i));
         }
     }
     public int gethighestnrex8(List<Integer> list) {

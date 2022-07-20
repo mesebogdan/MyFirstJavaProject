@@ -1,6 +1,6 @@
 package AnimalRescuer.animal;
 
-public class Animal {
+public abstract class Animal {
     private int age;
     private String race;
     private String name;
@@ -68,22 +68,10 @@ public class Animal {
         this.happyFeet=happyFeet;
     }
 
-    public void favouritefood(){
-        System.out.println("He likes pizza");
-    }
-    public void favouritegames(){
-        System.out.println("Getting the ball back");
-    }
-    public void eat(){
-        System.out.println("eating dog food");
-    }
-    public void sleep(){
-        System.out.println("snores...zzz");
-    }
-    public void speak(){
-        System.out.println("Ham");
-    }
-    public void play(){
-        System.out.println("Playing fetch");
-    }
+    public abstract void favouritefood();
+    public abstract void favouritegames();
+    public abstract void eat();
+    public abstract void sleep();
+    public abstract void speak();
+    public abstract void play();
 }

@@ -7,6 +7,8 @@ import AnimalRescuer.animal.cat.Cat;
 import AnimalRescuer.animal.cat.Siamese;
 import AnimalRescuer.animal.dog.Chiwawa;
 import AnimalRescuer.animal.dog.Dog;
+import AnimalRescuer.animal.dog.GoldenRetriver;
+import AnimalRescuer.animal.dog.Pitbull;
 import AnimalRescuer.animal.duck.Duck;
 import AnimalRescuer.animal.duck.GoldenDuck;
 import AnimalRescuer.people.Adoption;
@@ -16,14 +18,14 @@ public class AppMain {
 
     public static void main(String[] args) {
 
-        Dog ralph = new Dog();
+        Chiwawa ralph = new Chiwawa();
         System.out.println(ralph.getName());
         ralph.setName("Ralph");
         ralph.play();
         ralph.favouritefood();
         ralph.favouritegames();
 
-        Dog bruno=new Dog();
+        Pitbull bruno=new Pitbull();
         bruno.setName("Bruno");
         System.out.println(bruno.getName());
         bruno.setRace("ciobanesc");
@@ -33,7 +35,7 @@ public class AppMain {
         bruno.setHappyFeet(5);
         System.out.println(bruno.getHappyFeet());
 
-        Dog brunel=new Dog();
+        GoldenRetriver brunel=new GoldenRetriver();
         brunel.setName("Brunel");
         System.out.println(brunel.getName());
         brunel.setAge(6);

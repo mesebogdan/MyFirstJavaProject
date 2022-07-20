@@ -55,8 +55,5 @@ public class Main6 {
 
         System.out.println(op.getHighestNrEx8(unorderedList));
 
-
-
-
     }
 }

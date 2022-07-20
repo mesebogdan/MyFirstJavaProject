@@ -2,7 +2,7 @@ package AnimalRescuer.animal.cat;
 
 import AnimalRescuer.animal.Animal;
 
-public class Cat extends Animal {
+public abstract class Cat extends Animal {
     public void favouritefood(){
         System.out.println("He likes milk");
     }
@@ -15,11 +15,8 @@ public class Cat extends Animal {
     public void sleep(){
         System.out.println("snores...grrrrr");
     }
-    public void speak(){
-        System.out.println("Miau");
-    }
-    public void play(){
-        System.out.println("watching the birds");
-    }
+    public abstract void speak();
+
+    public abstract void play();
 
 }
